@@ -1,0 +1,45 @@
+/* Rest of your CSS */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-image: url('../image/questionImage.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: background-color 1s ease-in-out;
+}
+
+.question-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.question-container0 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.love {
+    position: fixed;
+    bottom: 10px;  
+    right: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+button:hover {
+    background-color: #218838;
+}
