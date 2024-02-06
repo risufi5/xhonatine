@@ -43,7 +43,7 @@ function sheSaidYes() {
         questionContainer.style.display = 'none';
     }
     
-    document.body.style.backgroundImage = 'url("../image/ily.png")';
+    document.body.style.backgroundImage = 'url("/image/ily.png")';
     var lovePage = document.getElementById('love');
     lovePage.style.display = 'block';
 }
@@ -57,7 +57,7 @@ function sheSaidNo() {
 function nextToQuestion() {
     var firstPage = document.getElementById('questionContainer0');
     firstPage.style.display = 'none';
-    document.body.style.backgroundImage = 'url("../image/backgroundCouple.jpg")';
+    document.body.style.backgroundImage = 'url("/image/backgroundCouple.jpg")';
     var secondPage = document.getElementById('questionContainer');
     secondPage.style.display = 'block';
     playOnPageLoad();
@@ -66,7 +66,7 @@ function nextToQuestion() {
 function love() {
     var lovePage = document.getElementById('love');
     lovePage.style.display = 'none';
-    document.body.style.backgroundImage = 'url("../image/love.JPEG")';
+    document.body.style.backgroundImage = 'url("/image/love.JPEG")';
     setTimeout(() => {
         document.body.style.opacity = '1';  // Fade-in
     }, 100);  // Delay for smoother transition
